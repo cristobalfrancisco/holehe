@@ -8,3 +8,4 @@ class TrioProgress(trio.abc.Instrument):
     def task_exited(self, task):
         if task.name.split(".")[-1] == "launch_module":
             self.tqdm.update(1)
+            contraseña para kali
